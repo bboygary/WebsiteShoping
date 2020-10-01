@@ -14,4 +14,20 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+    
+    @Test
+    public boolean testOnCreateOptionsMenu {
+        HomeActivity homeActivity = new HomeActivity();
+        Menu menu = new Menu();
+        assertTrue(homeActivity.onCreateOptionsMenu(menu);
+     }
+                   
+     @Test
+     public boolean testOnOptionsItemSelected {
+         HomeActivity homeActivity = new HomeActivity();
+         MenuItem item = new MenuItem();
+         item = item.getItemId();
+         assertTrue(homeActivity.onOptionsItemSelected(item))
+     }
+                   
 }
